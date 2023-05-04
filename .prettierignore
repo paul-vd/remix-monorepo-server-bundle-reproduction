@@ -1,0 +1,5 @@
+# Auto generated files
+pnpm-lock.yaml
+
+# needed on the CI due to the Gitlab cache related configuration
+.pnpm-store

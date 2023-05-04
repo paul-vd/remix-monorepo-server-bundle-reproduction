@@ -1,0 +1,34 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build"
+  },
+  "dependencies": {
+    "@acme/package-a": "workspace:*",
+    "@remix-run/express": "^1.16.0",
+    "@remix-run/node": "^1.16.0",
+    "@remix-run/react": "^1.16.0",
+    "isbot": "^3.6.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "1.16.0",
+    "@remix-run/eslint-config": "1.16.0",
+    "@remix-run/serve": "1.16.0",
+    "@types/react": "18.2.4",
+    "@types/react-dom": "18.2.3",
+    "dotenv": "16.0.3",
+    "eslint": "8.39.0",
+    "typescript": "4.9.5"
+  },
+  "engines": {
+    "node": "^18.12.0 || ^20.0.0"
+  }
+}

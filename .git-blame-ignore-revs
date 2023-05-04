@@ -1,0 +1,34 @@
+#####
+# This file contains revisions to ignore in Blames
+# You must either:
+#   - configure it globally: `git config --global blame.ignoreRevsFile .git-blame-ignore-revs`
+#   - run with the parameter every time `git blame --ignore-revs-file .git-blame-ignore-revs`
+#
+# All revisions specified in the .git-blame-ignore-revs file,
+# which must be in the root directory of your repository,
+# are hidden from the blame view using Git's git blame --ignore-revs-file configuration setting.
+#
+# For more information, see git blame --ignore-revs-file in the Git documentation.
+# https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt
+#
+# See also:
+#   - https://docs.github.com/en/repositories/working-with-files/using-files/viewing-a-file#ignore-commits-in-the-blame-view
+#   - https://michaelheap.com/git-ignore-rev/
+####
+
+## Prettier updates
+039e83ca8763328ccb23cf4e9b941d24be5e49aa
+325c7ad7071c1c05b612a76f5b103c58c1602e88
+dc8de39dc67244cb9e47dd241569d4e6a5e8a9df
+37bcb44b44d1500c9c0ae2c2371a7b5f43586a82
+4e9de83afc9a284b240b57cef721e22af65d6b62
+e55aea4dd960de147a3f5a3dacf8e0279c5dd324
+fc58f548bd616fcb11e5cf289284c931a9c3b63c
+c921b61ad19776db90231d6d2640ce3562a10cbc
+fc3fe76cffc350612b6a5ff23ee79d2a53cd00cc
+
+## ESLint updates
+37d0d2b078a08be8b236c4b416acf8c49b0e76d0
+
+## v2 / v3 transition (v2_todo directory)
+122abc3452cb6df1bcfff23ca07cefe17910614c
